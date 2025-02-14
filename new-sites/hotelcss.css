@@ -1,0 +1,19 @@
+*{
+    font-size: 1.2rem;
+}.maincontainer{
+    display: flex;
+    justify-content: center;
+    height: 95vh;
+    align-items: center;
+    flex-grow: 2;
+    gap: 45px;
+}
+.container{
+    background-color: #ceffe9;
+    margin-bottom: 4vh;
+    height: 7vh;
+    border: 4px dotted black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+}

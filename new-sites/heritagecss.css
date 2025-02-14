@@ -1,0 +1,25 @@
+*{
+    font-size:1.2rem
+}
+.maincontainer{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+.maincontainer .box{
+
+    border:2px solid black;
+    border-radius: 7px;
+    height: 10vh;
+    position:relative;
+    display: flex;
+    gap: 10px;
+    
+}
+img{
+    
+    width: auto;
+    height: 10vh;
+}

@@ -1,0 +1,18 @@
+.maincontainer{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:4vh;
+
+}
+.each{
+    border: 4px dotted black;
+    border-radius: 10px;
+    width: 100%;
+    text-align: center;
+}
+.heading{
+    font-size: 3rem;
+    text-decoration: double;
+}

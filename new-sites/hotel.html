@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hotel</title>
+    <link rel="stylesheet" href="hotelcss.css">
+    <script src="hotelscript.js" defer></script> <!-- Link to the external script -->
+</head>
+<body>
+    <div class="maincontainer">
+        <form id="hotelForm" action="https://httpbin.org/post" method="post">
+            <div class="container">
+                <label for="hotel">
+                    Enter the hotel you want:
+                    <select name="hotel" id="hotel" required>
+                        <option value="">Select a hotel</option>
+                        <option value="thousand">Thousand Pillar</option>
+                        <option value="ramappa">Ramappa</option>
+                        <option value="warangal-fort">Warangal Fort</option>
+                        <option value="kush">Kush Mahal</option>
+                        <option value="ghanpur">Ghanpur Group of Temples</option>
+                    </select>
+                </label>
+            </div>
+            <div class="container">
+                <label for="phone">
+                    Enter your phone number:
+                    <input type="tel" name="phone" id="phone" pattern="[0-9]{10}" required>
+                    
+                </label>
+            </div>
+            <div class="container">
+                <label for="entry">
+                    Enter when you want to enter:
+                    <input type="date" name="entry" id="entry" required>
+                </label>
+            </div>
+            <div class="container">
+                <label for="exit">
+                    Enter the date to exit:
+                    <input type="date" name="exit" id="exit" required>
+                </label>
+            </div>
+            <div class="container">
+                <label for="submit">
+                    <input type="submit">
+                </label>
+                <label for="reset">
+                    <input type="reset">
+                </label>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
