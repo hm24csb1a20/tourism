@@ -1,0 +1,84 @@
+*{
+    padding:0px;
+    margin:0px;
+    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.photo-logo {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    overflow: hidden;
+    position:relative;
+    overflow: hidden;
+    margin-bottom: 3vh;
+}
+
+.photo{
+    width:100vh;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+
+}
+.photo img {
+    height:100%;
+
+    overflow: hidden;
+    width: auto; 
+    object-fit: cover; /
+}
+.overlay {
+    position: absolute;
+    top: 34vh;
+    left: 0;
+    width: 100%; 
+    display: flex; 
+    justify-content: space-evenly; 
+    align-items: center; 
+    background-color: rgba(0, 0, 0, 0.4); 
+    padding: 10px;
+}
+
+.content{
+    color: white;
+    font-size: 3em;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    /* display: inline-block; */
+    width:7vw;
+    height: auto;
+}
+
+.main.cont{
+    padding: 2vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: right;
+    gap:3vh;
+    position: sticky;
+    background-color: whitesmoke;
+    top:0%;
+    z-index: 1;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 2vh;
+    
+}
+
+.main.cont div{
+    
+    border: 3px dotted brown;
+    width: 100%;
+    font-size: 22px;
+
+}
+.main.cont div:hover{
+    border: 3px solid brown;
+    transition: ease-in-out 1s;
+}
